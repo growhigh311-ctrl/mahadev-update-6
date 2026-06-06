@@ -44,10 +44,10 @@ export default function Footer() {
                 <Link href="/blog" className="hover:text-amber-400 transition-colors">Insights Blog</Link>
               </li>
               <li>
-                <Link href="/lotus-betting-app" className="hover:text-amber-400 transition-colors">Lotus Betting App</Link>
+                <Link href="/mahadev-betting-app" className="hover:text-amber-400 transition-colors">Mahadev Betting App</Link>
               </li>
               <li>
-                <Link href="/lotus-book-id" className="hover:text-amber-400 transition-colors">Lotus Book ID</Link>
+                <Link href="/mahadev-book-id" className="hover:text-amber-400 transition-colors">Mahadev Book ID</Link>
               </li>
               <li>
                 <Link href="/faq" className="hover:text-amber-400 transition-colors">FAQ</Link>
@@ -68,8 +68,8 @@ export default function Footer() {
               <li><span className="text-zinc-500">•</span> Laser247 Official</li>
               <li><span className="text-zinc-500">•</span> IPL Cricket Betting ID</li>
               <li><span className="text-zinc-500">•</span> Online Betting ID India</li>
-              <li><span className="text-zinc-500">•</span> Lotus Book Online Book</li>
-              <li><span className="text-zinc-500">•</span> Lotus Book Official</li>
+              <li><span className="text-zinc-500">•</span> Mahadev Book Online Book</li>
+              <li><span className="text-zinc-500">•</span> Mahadev Book Official</li>
             </ul>
           </div>
 
@@ -101,10 +101,10 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
           <p className="text-zinc-500 text-center md:text-left">
-            &copy; {currentYear} Lotus Book. All rights reserved.
+            &copy; {currentYear} Mahadev Book. All rights reserved.
           </p>
           <p className="text-zinc-600 max-w-xl text-center md:text-right font-light">
-            Lotus Book is an educational sports insights platform. All content is for informational purposes only. Play responsibly and at your own risk.
+            Mahadev Book is an educational sports insights platform. All content is for informational purposes only. Play responsibly and at your own risk.
           </p>
         </div>
       </div>

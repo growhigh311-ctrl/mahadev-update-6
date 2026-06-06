@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/api/'],
     },
-    sitemap: 'https://thelotusbook.info/sitemap.xml',
+    sitemap: 'https://themahadevbook.info/sitemap.xml',
   };
 }

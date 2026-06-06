@@ -46,7 +46,7 @@ const reviews = [
   { name: "Rahul S.", location: "Mumbai", comment: "Withdrawal credited within 5 minutes! Best platform I've used.", rating: 5 },
   { name: "Priya K.", location: "Delhi", comment: "Got my ID the same day. Super smooth process and amazing support team!", rating: 5 },
   { name: "Vikram M.", location: "Bangalore", comment: "IPL betting experience was incredible. Real-time updates and fast payouts.", rating: 5 },
-  { name: "Ankit T.", location: "Pune", comment: "100% genuine platform. I trust Lotus Book for all my betting.", rating: 5 },
+  { name: "Ankit T.", location: "Pune", comment: "100% genuine platform. I trust Mahadev Book for all my betting.", rating: 5 },
   { name: "Suresh P.", location: "Hyderabad", comment: "Best customer service! They resolved my issue in minutes via WhatsApp.", rating: 5 },
   { name: "Riya N.", location: "Chennai", comment: "Mujhe bahut accha experience mila. Payout fast aur secure hai.", rating: 5 }
 ];
@@ -60,23 +60,23 @@ const trustPoints = [
 
 const faqs = [
   {
-    q: "What is Lotus Book Online Betting ID?",
-    a: "The Lotus Book Online Betting ID is a verified account that lets you access betting services such as cricket, casino, poker, and more. With this ID, users can deposit funds, place bets, and enjoy a secure gaming experience."
+    q: "What is Mahadev Book Online Betting ID?",
+    a: "The Mahadev Book Online Betting ID is a verified account that lets you access betting services such as cricket, casino, poker, and more. With this ID, users can deposit funds, place bets, and enjoy a secure gaming experience."
   },
   {
-    q: "How does Lotus Book work?",
-    a: "Lotus Book acts as a trusted aggregator. Once you request an ID via WhatsApp, our support agents set up your credentials. You add funds via UPI or bank transfer, receive your betting chips, and log in to the official exchange site. Your winnings can be requested via WhatsApp and are transferred directly to your bank account."
+    q: "How does Mahadev Book work?",
+    a: "Mahadev Book acts as a trusted aggregator. Once you request an ID via WhatsApp, our support agents set up your credentials. You add funds via UPI or bank transfer, receive your betting chips, and log in to the official exchange site. Your winnings can be requested via WhatsApp and are transferred directly to your bank account."
   },
   {
     q: "How do I register for a new Online Betting ID?",
     a: "Simply click on any 'Get ID' button to open a chat with our verified agent on WhatsApp. Send a request, provide basic details (name, contact), choose your deposit amount, and your ID will be generated in less than 5 minutes."
   },
   {
-    q: "What games can I play with my Lotus Book ID?",
+    q: "What games can I play with my Mahadev Book ID?",
     a: "You can bet on all major sports including Cricket (IPL, World Cup, Test matches), Football (Premier League, UEFA), Tennis, and E-sports. You also get access to classic Indian card games like Teen Patti, Andar Bahar, and live casinos."
   },
   {
-    q: "How do I deposit money into my Lotus Book account?",
+    q: "How do I deposit money into my Mahadev Book account?",
     a: "Depositing is quick and secure. Our agents will provide verified UPI IDs, GPay details, or bank accounts. Once you make the payment and send a screenshot, your betting chips will be instantly credited to your ID."
   },
   {
@@ -84,12 +84,12 @@ const faqs = [
     a: "Withdrawals are available 24/7. Text your WhatsApp agent with your ID username and the amount you want to withdraw. Provide your UPI ID or bank account details, and the funds will be transferred to you in 5 to 10 minutes."
   },
   {
-    q: "Is Lotus Book legal in India?",
-    a: "Lotus Book operates in a legal grey area. Online betting is governed by state-specific laws in India. While there is no federal law banning online betting platforms hosted outside India, some states have their own restrictions. We advise users to check local regulations."
+    q: "Is Mahadev Book legal in India?",
+    a: "Mahadev Book operates in a legal grey area. Online betting is governed by state-specific laws in India. While there is no federal law banning online betting platforms hosted outside India, some states have their own restrictions. We advise users to check local regulations."
   },
   {
-    q: "Is Lotus Book safe and trusted?",
-    a: "Yes. With over 1.2 million active users and millions of completed transactions since 2018, Lotus Book is widely regarded as India's most stable and secure online betting bookmaker."
+    q: "Is Mahadev Book safe and trusted?",
+    a: "Yes. With over 1.2 million active users and millions of completed transactions since 2018, Mahadev Book is widely regarded as India's most stable and secure online betting bookmaker."
   }
 ];
 
@@ -135,11 +135,11 @@ export default function Home() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-black text-white leading-tight">
-              Lotus Book – <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-600 gold-text-glow">India's Most Trusted</span> Online Betting ID
+              Mahadev Book – <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-600 gold-text-glow">India's Most Trusted</span> Online Betting ID
             </h1>
             
             <p className="text-zinc-300 text-lg leading-relaxed font-light">
-              Welcome to <strong className="text-white">Lotus Book</strong>, the online betting game-changer of all time. Betting isn't just about chance; it's about timing, strategy, and choosing the right platform. In India, the lotusbook is your trusted gateway to a safe, authorized, and rewarding betting experience.
+              Welcome to <strong className="text-white">Mahadev Book</strong>, the online betting game-changer of all time. Betting isn't just about chance; it's about timing, strategy, and choosing the right platform. In India, the mahadevbook is your trusted gateway to a safe, authorized, and rewarding betting experience.
             </p>
             
             <p className="text-zinc-400 leading-relaxed font-light">
@@ -156,7 +156,7 @@ export default function Home() {
                 <span>🎯</span> Get Your ID Now
               </a>
               <Link
-                href="/lotus-book-id"
+                href="/mahadev-book-id"
                 className="inline-flex items-center justify-center gap-2 border border-zinc-700 text-zinc-300 hover:border-amber-500 hover:text-amber-400 font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:-translate-y-0.5"
               >
                 Learn More
@@ -184,12 +184,12 @@ export default function Home() {
               <div className="relative glass-card rounded-2xl overflow-hidden border border-amber-500/25 shadow-2xl p-8 flex flex-col items-center justify-center text-center gap-6 group hover:border-amber-500/50 transition-colors duration-500">
                 
                 {/* Crown Logo Badge */}
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-yellow-300 via-amber-500 to-yellow-600 flex items-center justify-center shadow-xl shadow-amber-500/30 group-hover:rotate-12 transition-transform duration-500">
-                  <span className="text-black font-serif font-black text-3xl">L</span>
+                <div className="w-64 h-24 flex items-center justify-center mb-2">
+                  <img src="https://mahadevbook.game/wp-content/uploads/2025/04/mahadev-online-books-e1765948728912-1024x369.webp" alt="Mahadev Book" className="w-full h-full object-contain drop-shadow-xl" />
                 </div>
                 
                 <div>
-                  <h2 className="text-white font-serif font-bold text-2xl tracking-wide">Lotus Book</h2>
+                  <h2 className="text-white font-serif font-bold text-2xl tracking-wide">Mahadev Book</h2>
                   <p className="text-amber-500 text-sm font-semibold uppercase tracking-wider mt-1">Official Betting Platform</p>
                 </div>
 
@@ -243,13 +243,13 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 2. What is Lotus Book Section */}
+      {/* 2. What is Mahadev Book Section */}
       <section className="py-20 bg-black relative border-t border-zinc-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Reveal>
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-serif font-black text-white mb-4">
-                What is <span className="text-amber-500">Lotus Book?</span>
+                What is <span className="text-amber-500">Mahadev Book?</span>
               </h2>
               <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full"></div>
             </div>
@@ -259,10 +259,10 @@ export default function Home() {
             <Reveal xOffset={-40}>
               <div className="space-y-6">
                 <p className="text-zinc-300 text-lg leading-relaxed font-light">
-                  <strong>Lotus Book</strong> is one of India's most popular and trusted online betting platforms. It is known for its secure system, smooth user experience, and wide variety of games.
+                  <strong>Mahadev Book</strong> is one of India's most popular and trusted online betting platforms. It is known for its secure system, smooth user experience, and wide variety of games.
                 </p>
                 <p className="text-zinc-455 leading-relaxed font-light">
-                  We bridge the gap between players and premier sportsbooks. With a verified Lotus Book ID, you gain access to a unified hub for cricket predictions, live odds, and casino events, ensuring fair play and complete safety.
+                  We bridge the gap between players and premier sportsbooks. With a verified Mahadev Book ID, you gain access to a unified hub for cricket predictions, live odds, and casino events, ensuring fair play and complete safety.
                 </p>
                 <div className="bg-gradient-to-br from-amber-500/10 to-transparent border-l-4 border-amber-500 rounded-r-xl p-6">
                   <h4 className="text-white font-bold text-lg flex items-center gap-2">
@@ -337,7 +337,7 @@ export default function Home() {
                 </h2>
                 <div className="w-16 h-0.5 bg-amber-500 rounded-full"></div>
                 <p className="text-zinc-300 font-light leading-relaxed">
-                  Your <strong>Lotus Book ID</strong> is a personal access key to India's trusted online betting ecosystem. With it, you can securely place bets on sports, casino games, and virtual matches within a single platform. Think of it as your secure digital passport.
+                  Your <strong>Mahadev Book ID</strong> is a personal access key to India's trusted online betting ecosystem. With it, you can securely place bets on sports, casino games, and virtual matches within a single platform. Think of it as your secure digital passport.
                 </p>
 
                 <div className="space-y-4">
@@ -372,7 +372,7 @@ export default function Home() {
                   <span>⚖️</span> Responsible Betting
                 </h3>
                 <p className="text-zinc-400 text-sm font-light leading-relaxed">
-                  Your Lotus Book ID unlocks exciting opportunities — but it's equally important to bet responsibly. We encourage you to:
+                  Your Mahadev Book ID unlocks exciting opportunities — but it's equally important to bet responsibly. We encourage you to:
                 </p>
                 <ul className="space-y-3 text-sm text-zinc-350">
                   <li className="flex items-center gap-2.5 font-light">
@@ -406,7 +406,7 @@ export default function Home() {
                 Our Users Speak For Us – <span className="text-amber-500">100% Payouts</span>
               </h2>
               <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
-                Read real reviews from verified Lotus Book players who enjoy our fast and trusted betting services.
+                Read real reviews from verified Mahadev Book players who enjoy our fast and trusted betting services.
               </p>
               <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
             </div>
@@ -479,7 +479,7 @@ export default function Home() {
                 Frequently Asked <span className="text-amber-500">Questions</span>
               </h2>
               <p className="text-zinc-400 text-sm font-light">
-                Find answers to the most common queries about registering and betting with Lotus Book.
+                Find answers to the most common queries about registering and betting with Mahadev Book.
               </p>
               <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
             </div>

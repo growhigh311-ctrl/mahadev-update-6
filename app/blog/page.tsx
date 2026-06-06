@@ -15,7 +15,7 @@ export default function BlogListingPage() {
         <Reveal>
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-serif font-black text-white mb-4">
-              Lotus Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Insights</span>
+              Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Insights</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
               Stay ahead with our latest betting guides, legal compliance updates, and match analytics.

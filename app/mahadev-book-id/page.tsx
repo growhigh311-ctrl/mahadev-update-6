@@ -27,7 +27,7 @@ export default function BookIdPage() {
             </div>
             
             <h1 className="text-4xl md:text-5xl font-serif font-black text-white mb-4">
-              Lotus Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Book ID</span>
+              Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Book ID</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
               Your personal, encrypted digital passport to secure sports insights, betting odds, and fast payouts.
@@ -44,7 +44,7 @@ export default function BookIdPage() {
                 Unlock Safe Online Gaming with Your Verified Betting ID
               </h2>
               <p className="text-zinc-350 leading-relaxed font-light">
-                Your <strong>Lotus Book ID</strong> is a personal access key to India's trusted online betting ecosystem. With it, you can securely place bets on sports, casino games, and virtual matches within a single platform.
+                Your <strong>Mahadev Book ID</strong> is a personal access key to India's trusted online betting ecosystem. With it, you can securely place bets on sports, casino games, and virtual matches within a single platform.
               </p>
               <p className="text-zinc-400 leading-relaxed font-light">
                 Think of it as your secure digital passport, offering seamless and protected transactions in a feature-rich betting environment. Get started today with a verified agent.

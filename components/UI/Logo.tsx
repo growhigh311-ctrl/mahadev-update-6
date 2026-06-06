@@ -17,7 +17,7 @@ export default function Logo({ className = "w-10 h-10" }: { className?: string }
         </svg>
       </div>
       <span className="text-white font-serif font-bold text-xl tracking-wide group-hover:text-amber-400 transition-colors">
-        Lotus <span className="text-amber-500 font-sans font-light">Book</span>
+        Mahadev <span className="text-amber-500 font-sans font-light">Book</span>
       </span>
     </div>
   );

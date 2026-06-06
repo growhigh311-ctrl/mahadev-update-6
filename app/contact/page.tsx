@@ -24,7 +24,7 @@ export default function ContactPage() {
         <Reveal>
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-serif font-black text-white mb-4">
-              Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Lotus Book</span>
+              Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Mahadev Book</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
               Our support team is available 24/7. Reach us via WhatsApp or Telegram for the fastest response.
@@ -58,7 +58,7 @@ export default function ContactPage() {
                   </a>
 
                   <a 
-                    href="https://t.me/lotusbook"
+                    href="https://t.me/mahadevbook"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 bg-zinc-900/40 border border-zinc-800 rounded-xl hover:border-amber-500/20 transition-all duration-300 group"

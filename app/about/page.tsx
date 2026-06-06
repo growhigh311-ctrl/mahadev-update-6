@@ -22,7 +22,7 @@ export default function AboutPage() {
         <Reveal>
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-serif font-black text-white mb-4">
-              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Lotus Book</span>
+              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Mahadev Book</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
               India's most trusted online betting exchange insight and prediction gateway.
@@ -37,7 +37,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-2xl font-serif font-bold text-white">Our Story</h2>
               <p className="text-zinc-300 leading-relaxed font-light">
-                Lotus Book was founded with a clear mission: to create India's most secure, transparent, and rewarding online betting experience. Since 2018, we have grown to serve over 1.2 million verified users across India.
+                Mahadev Book was founded with a clear mission: to create India's most secure, transparent, and rewarding online betting experience. Since 2018, we have grown to serve over 1.2 million verified users across India.
               </p>
               <p className="text-zinc-400 leading-relaxed font-light">
                 We believe that sports predictions and analytical games should be fun, accessible, and run with absolute fairness. That's why we partner only with the most credible sportsbook engines and ensure every transaction is protected.
@@ -82,7 +82,7 @@ export default function AboutPage() {
         <Reveal>
           <div className="glass-card rounded-2xl p-8 md:p-12 text-center border border-amber-500/15 relative overflow-hidden bg-gradient-to-br from-[#0c0a06] to-black">
             <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-4">
-              Get Your Verified Lotus Book ID
+              Get Your Verified Mahadev Book ID
             </h3>
             <p className="text-zinc-400 text-base max-w-xl mx-auto font-light mb-8">
               Start your journey today on India's most secure sports Insights platform with instant payouts.

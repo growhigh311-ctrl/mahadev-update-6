@@ -58,7 +58,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               <Clock className="w-4 h-4" />
               <span>{post.readTime}</span>
             </div>
-            <div className="text-zinc-600">By Lotus Book Analyst</div>
+            <div className="text-zinc-600">By Mahadev Book Analyst</div>
           </div>
         </div>
 
@@ -72,7 +72,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <div className="mt-16 p-8 rounded-2xl glass-card border border-amber-500/10 text-center space-y-4">
           <h3 className="text-xl font-serif font-bold text-white">Want to put these insights into action?</h3>
           <p className="text-zinc-400 text-sm font-light max-w-md mx-auto">
-            Get your verified Lotus Book ID on WhatsApp in under 5 minutes and start placing smart bets now.
+            Get your verified Mahadev Book ID on WhatsApp in under 5 minutes and start placing smart bets now.
           </p>
           <div className="pt-2">
             <a 

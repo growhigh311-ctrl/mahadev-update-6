@@ -15,7 +15,7 @@ const installSteps = [
   { num: "1", title: "Open WhatsApp Chat", desc: "Click 'Download via WhatsApp' to request the secure app download link from our agent." },
   { num: "2", title: "Allow Unknown Sources", desc: "For Android, enable 'Install from unknown sources' in your device settings." },
   { num: "3", title: "Install the APK / App", desc: "Tap the downloaded package and complete the installation wizard." },
-  { num: "4", title: "Log In & Bet", desc: "Open the app, sign in using your verified Lotus Book ID, and start playing." }
+  { num: "4", title: "Log In & Bet", desc: "Open the app, sign in using your verified Mahadev Book ID, and start playing." }
 ];
 
 const activeMatches = [
@@ -40,10 +40,10 @@ export default function BettingAppPage() {
             </div>
             
             <h1 className="text-4xl md:text-5xl font-serif font-black text-white mb-4">
-              Lotus Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Betting App</span>
+              Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Betting App</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
-              Download the official Lotus Book application for Android & iOS to enjoy live sports and casino payouts on the go.
+              Download the official Mahadev Book application for Android & iOS to enjoy live sports and casino payouts on the go.
             </p>
             <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
           </div>
@@ -54,10 +54,10 @@ export default function BettingAppPage() {
           <Reveal xOffset={-45}>
             <div className="space-y-6">
               <h2 className="text-2xl font-serif font-bold text-white leading-snug">
-                Download the Lotus Betting App – India's Most Trusted Mobile Betting Exchange
+                Download the Mahadev Betting App – India's Most Trusted Mobile Betting Exchange
               </h2>
               <p className="text-zinc-350 leading-relaxed font-light">
-                Looking for a secure and lightning-fast online betting app? The official Lotus Book mobile application brings live markets, expert prediction models, and seamless deposits to your fingertips.
+                Looking for a secure and lightning-fast online betting app? The official Mahadev Book mobile application brings live markets, expert prediction models, and seamless deposits to your fingertips.
               </p>
               <p className="text-zinc-400 leading-relaxed font-light">
                 Compatible with both Android and iOS, the mobile app is optimized for low-bandwidth environments, ensuring you never miss a cricket delivery or card flip.

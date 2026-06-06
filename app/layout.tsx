@@ -17,17 +17,17 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Lotus Book - Lotus Book ID | Lotus Book Official",
-  description: "Join Lotus Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Lotus Book.",
-  keywords: "Lotus Book, Lotus Book ID, Lotus Book Login, Lotus Book Register, Buy Lotus Book ID",
-  authors: [{ name: "Lotus Book" }],
-  creator: "Lotus Book",
+  title: "Mahadev Book - Mahadev Book ID | Mahadev Book Official",
+  description: "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
+  keywords: "Mahadev Book, Mahadev Book ID, Mahadev Book Login, Mahadev Book Register, Buy Mahadev Book ID",
+  authors: [{ name: "Mahadev Book" }],
+  creator: "Mahadev Book",
   robots: "index, follow",
   openGraph: {
-    title: "Lotus Book - India's Most Trusted Online Betting Platform",
-    description: "Join Lotus Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Lotus Book.",
+    title: "Mahadev Book - India's Most Trusted Online Betting Platform",
+    description: "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
     url: "https://mahadeevbook.com",
-    siteName: "Lotus Book",
+    siteName: "Mahadev Book",
     locale: "en_IN",
     type: "website",
   }
