@@ -12,7 +12,7 @@ const stats = [
 ];
 
 export default function AboutPage() {
-  const whatsappUrl = "https://wa.me/919412834207";
+  const whatsappUrl = "https://wa.me/917589045547";
 
   return (
     <div className="min-h-screen bg-black py-16">
