@@ -1,12 +1,10 @@
-import { MetadataRoute } from 'next';
-
-export default function robots(): MetadataRoute.Robots {
+export default function robots() {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/private/', '/api/'],
+      disallow: ['/api', '/admin', '/_next'],
     },
-    sitemap: 'https://themahadevbook.info/sitemap.xml',
+    sitemap: 'https://mahadevbookie.site/sitemap.xml',
   };
 }

@@ -17,6 +17,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mahadevbookie.site'),
+  alternates: { canonical: '/' },
   title: "Mahadev Book - Mahadev Book ID | Mahadev Book Official",
   description: "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
   keywords: "Mahadev Book, Mahadev Book ID, Mahadev Book Login, Mahadev Book Register, Buy Mahadev Book ID",
@@ -26,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mahadev Book - India's Most Trusted Online Betting Platform",
     description: "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
-    url: "https://mahadeevbook.com",
+    url: "https://mahadevbookie.site",
     siteName: "Mahadev Book",
     locale: "en_IN",
     type: "website",

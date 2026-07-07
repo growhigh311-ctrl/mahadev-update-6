@@ -1,30 +1,41 @@
-import { MetadataRoute } from 'next';
-import { blogPosts } from '../lib/blogData';
+import fs from 'fs';
+import path from 'path';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://themahadevbook.info';
+export default function sitemap() {
+  const baseUrl = 'https://mahadevbookie.site';
+  const appDir = path.join(process.cwd(), 'app');
+  const routes: string[] = [];
 
-  const routes = [
-    '',
-    '/about',
-    '/blog',
-    '/mahadev-betting-app',
-    '/mahadev-book-id',
-    '/faq',
-    '/contact',
-  ].map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: 'daily' as const,
-    priority: route === '' ? 1.0 : 0.8,
-  }));
+  function walk(dir: string) {
+    if (!fs.existsSync(dir)) return;
+    const files = fs.readdirSync(dir);
+    for (const file of files) {
+      const fullPath = path.join(dir, file);
+      const stat = fs.statSync(fullPath);
+      if (stat.isDirectory()) {
+        const folderName = file.toLowerCase();
+        if (['api', 'admin', '_next', 'private', '404', 'components', 'layout', 'context', 'page-templates', 'assets', 'config', 'lib'].indexOf(folderName) === -1) {
+          walk(fullPath);
+        }
+      } else if (file === 'page.tsx' || file === 'page.jsx') {
+        const relPath = path.relative(appDir, dir).replace(/\\/g, '/');
+        if (relPath.includes('[') || relPath.includes(']')) {
+          continue;
+        }
+        routes.push(relPath);
+      }
+    }
+  }
 
-  const blogRoutes = blogPosts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.6,
-  }));
-
-  return [...routes, ...blogRoutes];
+  walk(appDir);
+  const uniqueRoutes = Array.from(new Set(routes));
+  return uniqueRoutes.map((route) => {
+    const url = route === '' ? baseUrl : `${baseUrl}/${route}`;
+    return {
+      url: url,
+      lastModified: new Date(),
+      changeFrequency: 'daily' ,
+      priority: route === '' ? 1.0 : 0.8,
+    };
+  });
 }
