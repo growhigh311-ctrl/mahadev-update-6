@@ -19,6 +19,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://mahadevbookie.site'),
   alternates: { canonical: '/' },
+  verification: {
+    google: "4iT5h3LxVznzXfFDt2cmnhF9_M_7aAtYMecZa7UgZXQ",
+  },
   title: "Mahadev Book - Mahadev Book ID | Mahadev Book Official",
   description: "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
   keywords: "Mahadev Book, Mahadev Book ID, Mahadev Book Login, Mahadev Book Register, Buy Mahadev Book ID",
