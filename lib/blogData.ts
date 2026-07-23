@@ -7,6 +7,8 @@ export interface BlogPost {
   icon: string;
   content: string;
   readTime: string;
+  customUrl?: string;
+  buttonText?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -114,6 +116,47 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Total Sixes:</strong> A fun market, particularly for high-scoring venues like Mumbai.</li>
       </ul>
       <p>Log into your Lotus Book ID to access live odds, in-play statistics, and instant bet slips for every ball of the series.</p>
+    `
+  },
+  {
+    slug: "cricket-betting-strategies-beginners",
+    title: "Beginner’s Strategy: A Winning Game Plan",
+    excerpt: "The secret to long-term success in 2026 isn't a 'hot streak' or a lucky guess; it’s bankroll management. Most beginners fail because they treat betting like a gamble rather than an investment. Learn how to protect your capital while building your confidence with a disciplined approach.",
+    date: "October 30, 2025",
+    category: "Strategy",
+    icon: "📈",
+    readTime: "4 min read",
+    customUrl: "/cricket-betting-strategies-beginners/",
+    buttonText: "Show More",
+    content: `
+      <p>The secret to long-term success in 2026 isn't a "hot streak" or a lucky guess; it’s bankroll management. Most beginners fail because they treat betting like a gamble rather than an investment. Learn how to protect your capital while building your confidence with a disciplined approach.</p>
+      
+      <h3>The 1-5% Rule</h3>
+      <p>The most important rule in professional betting is never to overextend.</p>
+      <ul>
+        <li><strong>Bankroll Management:</strong> Divide your total betting budget into 100 units. Never bet more than 1–5% of your total bankroll on any single match.</li>
+        <li><strong>Survival:</strong> This approach ensures that even a string of bad luck won’t wipe out your entire account, giving you the time and runway to learn from your mistakes.</li>
+      </ul>
+      
+      <h3>Specialization</h3>
+      <p>Trying to bet on every single game (Test, ODI, T20, and various domestic leagues) is a recipe for disaster.</p>
+      <ul>
+        <li><strong>Focus Your Research:</strong> Pick one format (e.g., T20) or one league (e.g., IPL) and become an expert in that area.</li>
+        <li><strong>Edge:</strong> The deeper your knowledge of a specific format's nuances, the better your ability to identify when bookmakers have mispriced an event.</li>
+      </ul>
+      
+      <h3>Avoiding Emotional Bets</h3>
+      <p>"Betting with your heart" is the quickest way to experience "logical bankruptcy."</p>
+      <ul>
+        <li><strong>The Favorite Team Bias:</strong> We all want our favorite team to win, but that bias clouds your objective analysis. If you cannot look at your favorite team’s stats impartially, it is better to avoid betting on their matches entirely.</li>
+      </ul>
+      
+      <h3>FAQs</h3>
+      <h4>What is a bankroll?</h4>
+      <p>A bankroll is the total amount of money you have set aside specifically for betting. It should be money you can afford to lose without it affecting your daily life.</p>
+      
+      <h4>How do I handle a losing streak?</h4>
+      <p>Follow your bankroll management plan strictly. Never "chase" losses by increasing your bet size to try and win it back quickly. Stick to the 1-5% rule.</p>
     `
   }
 ];

@@ -38,7 +38,7 @@ export default function BlogListingPage() {
                   </div>
                   
                   <h2 className="text-xl font-serif font-bold text-white hover:text-amber-400 transition-colors">
-                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                    <Link href={post.customUrl || `/blog/${post.slug}`}>{post.title}</Link>
                   </h2>
                   
                   <p className="text-zinc-455 text-sm font-light leading-relaxed">
@@ -56,8 +56,8 @@ export default function BlogListingPage() {
                       <Clock className="w-3.5 h-3.5" />
                       <span>{post.readTime}</span>
                     </div>
-                    <Link href={`/blog/${post.slug}`} className="text-amber-500 font-semibold hover:text-amber-400 flex items-center gap-1 transition-colors">
-                      Read More <ArrowRight className="w-3 h-3" />
+                    <Link href={post.customUrl || `/blog/${post.slug}`} className="text-amber-500 font-semibold hover:text-amber-400 flex items-center gap-1 transition-colors">
+                      {post.buttonText || "Read More"} <ArrowRight className="w-3 h-3" />
                     </Link>
                   </div>
                 </div>
