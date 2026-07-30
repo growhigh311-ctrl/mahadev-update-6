@@ -4,8 +4,8 @@ import { Calendar, Clock, ChevronLeft } from 'lucide-react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cricket Betting Strategies for Beginners: A Winning Plan",
-  description: "Start betting on cricket the smart way. Learn essential bankroll management, how to specialize your focus, and common mistakes to avoid in 2026.",
+  title: "Cricket Betting Strategies for Beginners | Winning Tips",
+  description: "Learn beginner-friendly cricket betting strategies, understand betting markets, manage your bankroll, and make smarter betting decisions.",
   alternates: {
     canonical: '/cricket-betting-strategies-beginners/',
   },

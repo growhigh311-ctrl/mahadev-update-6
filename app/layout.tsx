@@ -3,6 +3,8 @@ import { Outfit, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
+import fs from 'fs';
+import path from 'path';
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -22,17 +24,17 @@ export const metadata: Metadata = {
   verification: {
     google: "4iT5h3LxVznzXfFDt2cmnhF9_M_7aAtYMecZa7UgZXQ",
   },
-  title: "Mahadev Book - Mahadev Book ID | Mahadev Book Official",
-  description: "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
+  title: "Mahadev Bookie | Online Cricket Betting, Casino & Sports Betting",
+  description: "Join Mahadev Bookie for secure online cricket betting, live sports betting, casino games, instant betting IDs, competitive odds, and fast withdrawals in India.",
   keywords: "Mahadev Book, Mahadev Book ID, Mahadev Book Login, Mahadev Book Register, Buy Mahadev Book ID",
   authors: [{ name: "Mahadev Book" }],
   creator: "Mahadev Book",
   robots: "index, follow",
   openGraph: {
-    title: "Mahadev Book - India's Most Trusted Online Betting Platform",
-    description: "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
+    title: "Mahadev Bookie | Online Cricket Betting, Casino & Sports Betting",
+    description: "Join Mahadev Bookie for secure online cricket betting, live sports betting, casino games, instant betting IDs, competitive odds, and fast withdrawals in India.",
     url: "https://mahadevbookie.site",
-    siteName: "Mahadev Book",
+    siteName: "Mahadev Bookie",
     locale: "en_IN",
     type: "website",
   }
@@ -43,12 +45,31 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const schemaPath = path.join(process.cwd(), 'schema codes', 'homepage.txt');
+  let homepageSchema = '';
+  try {
+    homepageSchema = fs.readFileSync(schemaPath, 'utf8')
+      .replace(/<script[^>]*>/i, '')
+      .replace(/<\/script>/i, '')
+      .trim();
+  } catch (err) {
+    console.error('Error reading homepage schema:', err);
+  }
+
   return (
     <html
       lang="en"
       className={`${outfit.variable} ${playfair.variable} h-full antialiased dark`}
       style={{ colorScheme: 'dark' }}
     >
+      <head>
+        {homepageSchema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: homepageSchema }}
+          />
+        )}
+      </head>
       <body className="min-h-full flex flex-col bg-[#050505] text-zinc-100 font-sans selection:bg-amber-500/20 selection:text-amber-300">
         <Navbar />
         <main className="flex-grow pt-20">

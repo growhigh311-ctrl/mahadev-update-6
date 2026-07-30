@@ -397,6 +397,97 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Deposit & Withdrawal Section */}
+      <section className="py-16 bg-[#030303] border-t border-zinc-900 text-center relative overflow-hidden">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Reveal>
+            <h2 className="text-3xl md:text-4xl font-serif font-black text-white mb-10 tracking-wider">
+              DEPOSIT & WITHDRAWAL
+            </h2>
+          </Reveal>
+
+          <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 mb-10">
+            {/* UPI Logo */}
+            <Reveal yOffset={30} delay={0.1}>
+              <div className="bg-white rounded-2xl shadow-lg shadow-black/30 p-4 flex items-center justify-center w-36 sm:w-40 h-20 transition-all duration-300 hover:scale-105">
+                <svg width="100" height="30" viewBox="0 0 100 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="skewX(-15) translate(15, 0)">
+                    <text x="0" y="24" fill="#3c3c3c" fontSize="24" fontFamily="sans-serif" fontWeight="900">UPI</text>
+                  </g>
+                  <path d="M72 8 L79 8 L71 24 L64 24 Z" fill="#FF9933" />
+                  <path d="M79 8 L86 8 L78 24 L71 24 Z" fill="#128C7E" />
+                  <text x="2" y="32" fill="#757575" fontSize="4.5" fontFamily="sans-serif" fontWeight="bold" letterSpacing="0.2">UNIFIED PAYMENTS INTERFACE</text>
+                </svg>
+              </div>
+            </Reveal>
+
+            {/* Google Pay Logo */}
+            <Reveal yOffset={30} delay={0.2}>
+              <div className="bg-white rounded-2xl shadow-lg shadow-black/30 p-4 flex items-center justify-center w-36 sm:w-40 h-20 transition-all duration-300 hover:scale-105">
+                <div className="flex items-center gap-1.5 justify-center">
+                  <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
+                    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853" />
+                    <path d="M5.84 14.1c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.08H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.92l3.66-2.82z" fill="#FBBC05" />
+                    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.08l3.66 2.82c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335" />
+                  </svg>
+                  <span className="text-[#3c3c3c] text-xl font-bold font-sans tracking-tight">Pay</span>
+                </div>
+              </div>
+            </Reveal>
+
+            {/* Paytm Logo */}
+            <Reveal yOffset={30} delay={0.3}>
+              <div className="bg-white rounded-2xl shadow-lg shadow-black/30 p-4 flex items-center justify-center w-36 sm:w-40 h-20 transition-all duration-300 hover:scale-105">
+                <div className="flex items-center justify-center">
+                  <span className="text-[#00baf2] text-2xl font-black font-sans tracking-tighter">pay</span>
+                  <span className="text-[#002e6e] text-2xl font-black font-sans tracking-tighter">tm</span>
+                </div>
+              </div>
+            </Reveal>
+
+            {/* PhonePe Logo */}
+            <Reveal yOffset={30} delay={0.4}>
+              <div className="bg-white rounded-2xl shadow-lg shadow-black/30 p-4 flex items-center justify-center w-36 sm:w-40 h-20 transition-all duration-300 hover:scale-105">
+                <div className="flex items-center gap-1.5 justify-center">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="24" rx="6" fill="#5f259f" />
+                    <path d="M12 6C9 6 7 8 7 11C7 14 9 15 11 15H13C15 15 16 16.5 16 18" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
+                    <path d="M11 9H16M11 12H15" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
+                  </svg>
+                  <span className="text-[#5f259f] text-lg font-bold font-sans tracking-tight">PhonePe</span>
+                </div>
+              </div>
+            </Reveal>
+
+            {/* Bank Transfer Logo */}
+            <Reveal yOffset={30} delay={0.5}>
+              <div className="bg-white rounded-2xl shadow-lg shadow-black/30 p-4 flex items-center justify-center w-36 sm:w-40 h-20 transition-all duration-300 hover:scale-105">
+                <div className="flex flex-col items-center justify-center leading-none">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0f9d58" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="mb-1">
+                    <line x1="3" y1="21" x2="21" y2="21" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                    <path d="M12 2L2 7v3h20V7L12 2z" />
+                    <line x1="5" y1="21" x2="5" y2="10" />
+                    <line x1="9" y1="21" x2="9" y2="10" />
+                    <line x1="13" y1="21" x2="13" y2="10" />
+                    <line x1="17" y1="21" x2="17" y2="10" />
+                  </svg>
+                  <span className="text-[#0f9d58] text-[10px] font-black uppercase tracking-wider text-center">Bank</span>
+                  <span className="text-[#0f9d58] text-[10px] font-black uppercase tracking-wider text-center">Transfer</span>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+
+          <Reveal>
+            <p className="text-[#00d2ff] font-semibold text-sm sm:text-base tracking-wide max-w-2xl mx-auto px-4 leading-relaxed">
+              Instant Deposit, Fast Withdrawal, Safe Transactions, 24x7 Assistance
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
       {/* 5. User Testimonials Section */}
       <section className="py-20 bg-[#070707] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
