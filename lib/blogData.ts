@@ -9,6 +9,8 @@ export interface BlogPost {
   readTime: string;
   customUrl?: string;
   buttonText?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -157,6 +159,151 @@ export const blogPosts: BlogPost[] = [
       
       <h4>How do I handle a losing streak?</h4>
       <p>Follow your bankroll management plan strictly. Never "chase" losses by increasing your bet size to try and win it back quickly. Stick to the 1-5% rule.</p>
+    `
+  },
+  {
+    slug: "fantasy-sports-guide-for-beginners",
+    title: "Fantasy Sports Explained: A Beginner's Guide",
+    metaTitle: "Fantasy Sports Guide for Beginners | Registration, Login & Account Recovery",
+    metaDescription: "Learn how fantasy sports platforms work with this beginner-friendly guide. Understand registration, login, account recovery, security tips, FAQs, and responsible participation.",
+    excerpt: "If you're new to fantasy sports, you may have several questions before creating your first account. This guide explains the basics of fantasy sports platforms in simple language.",
+    date: "August 6, 2026",
+    category: "Guide",
+    icon: "📘",
+    readTime: "6 min read",
+    content: `
+      <p>If you're new to fantasy sports, you may have several questions before creating your first account. How do you register with Mahadevbookie.site? How do you log in? What should you do if you forget your password? Is your account secure?</p>
+      <p>This guide explains the basics of fantasy sports platforms in simple language. Whether you're completely new or just looking for answers to common account-related questions, you'll find everything you need here.</p>
+      
+      <h3>What Is Fantasy Sports?</h3>
+      <p>Fantasy sports is an online game where participants create a virtual team made up of real players from upcoming sporting events. The team's score depends on how those players perform in actual matches.</p>
+      <p>Unlike simply watching a game, fantasy sports encourage users to research players, analyze statistics, and make informed decisions before selecting their teams.</p>
+      <p>Many sports fans enjoy fantasy contests because they add another layer of excitement while following live matches.</p>
+      
+      <h3>Why Are Fantasy Sports Popular?</h3>
+      <p>Fantasy sports continue to grow because they combine entertainment with strategy. Some of the reasons people enjoy fantasy sports include:</p>
+      <ul>
+        <li>Building their own dream team</li>
+        <li>Following live matches more closely</li>
+        <li>Learning player statistics</li>
+        <li>Testing sports knowledge</li>
+        <li>Competing with friends and other sports fans</li>
+        <li>Making strategic player selections</li>
+      </ul>
+      <p>Success usually depends on research, planning, and understanding the sport.</p>
+      
+      <h3>How to Register on a Fantasy Sports Platform</h3>
+      <p>Creating an account is generally a simple process.</p>
+      <h4>Step 1 – Visit the Official Website or App</h4>
+      <p>Always register through the platform's official website or mobile application.</p>
+      <h4>Step 2 – Enter Your Details</h4>
+      <p>Most platforms ask for:</p>
+      <ul>
+        <li>Full Name</li>
+        <li>Mobile Number</li>
+        <li>Email Address (if required)</li>
+      </ul>
+      <p>Always provide accurate information.</p>
+      <h4>Step 3 – Verify Your Account</h4>
+      <p>Many platforms send an OTP or verification code to your mobile number or email address. Enter the code to complete verification.</p>
+      <h4>Step 4 – Registration Complete</h4>
+      <p>Once verification is successful, your account is ready. You can now access your dashboard and explore the platform.</p>
+      
+      <h3>How to Log In</h3>
+      <p>Logging into your account is straightforward.</p>
+      <ol>
+        <li>Visit the official website or app.</li>
+        <li>Enter your registered mobile number, email, or username.</li>
+        <li>Enter your password.</li>
+        <li>Complete any additional verification if requested.</li>
+        <li>Click the Login button.</li>
+      </ol>
+      <p>You will then be able to access your account.</p>
+      
+      <h3>Tips for Secure Login</h3>
+      <p>Keeping your account secure is important.</p>
+      <h4>Create a Strong Password</h4>
+      <p>Choose a password that includes:</p>
+      <ul>
+        <li>Uppercase letters</li>
+        <li>Lowercase letters</li>
+        <li>Numbers</li>
+        <li>Special characters</li>
+      </ul>
+      <p>Avoid using birthdays, names, or simple number combinations.</p>
+      <h4>Keep Your Password Private</h4>
+      <p>Never share your password or verification code with anyone.</p>
+      <h4>Log Out from Shared Devices</h4>
+      <p>If you're using someone else's phone or computer, remember to log out before leaving.</p>
+      <h4>Use Official Platforms Only</h4>
+      <p>Always log in through the official website or app.</p>
+      
+      <h3>Forgot Your Password?</h3>
+      <p>Most fantasy sports platforms provide a simple password recovery process.</p>
+      <ol>
+        <li>Open the login page.</li>
+        <li>Select Forgot Password.</li>
+        <li>Enter your registered mobile number or email.</li>
+        <li>Complete the OTP or verification process.</li>
+        <li>Create a new password.</li>
+      </ol>
+      <p>Choose a password that is secure and easy for you to remember.</p>
+      
+      <h3>Common Login Problems</h3>
+      <h4>Incorrect Password</h4>
+      <p>Check for: Typing mistakes, Capital letters, Extra spaces, Wrong username.</p>
+      <h4>OTP Not Received</h4>
+      <p>If your OTP doesn't arrive: Wait a few minutes. Check your network connection. Request another OTP.</p>
+      <h4>Browser Issues</h4>
+      <p>If the website isn't loading correctly: Refresh the page. Clear your browser cache. Try another browser. Update your mobile app.</p>
+      <h4>Locked Account</h4>
+      <p>Some platforms temporarily lock accounts after several unsuccessful login attempts. If this happens, follow the platform's recovery instructions or contact customer support.</p>
+      
+      <h3>Tips for Beginners</h3>
+      <p>If you're new to fantasy sports, these suggestions may help.</p>
+      <ul>
+        <li><strong>Learn the Rules:</strong> Each platform has its own scoring system and contest rules. Understanding them before participating can improve your overall experience.</li>
+        <li><strong>Research Players:</strong> Look beyond famous names. Recent form, fitness, and match conditions often provide useful information.</li>
+        <li><strong>Follow Team News:</strong> Always check the confirmed playing lineup before making your final selections.</li>
+        <li><strong>Study Match Conditions:</strong> Weather reports and pitch conditions may influence player performance in many sports.</li>
+        <li><strong>Stay Updated:</strong> Keep an eye on injury updates, toss results, and official team announcements.</li>
+      </ul>
+      
+      <h3>Keeping Your Account Safe</h3>
+      <p>Here are some simple ways to protect your account.</p>
+      <ul>
+        <li>Use a unique password.</li>
+        <li>Change your password regularly.</li>
+        <li>Never share verification codes.</li>
+        <li>Update your contact information if it changes.</li>
+        <li>Avoid suspicious links or unofficial websites.</li>
+      </ul>
+      
+      <h3>Frequently Asked Questions</h3>
+      <h4>How long does registration take?</h4>
+      <p>Registration usually takes only a few minutes, depending on the verification process.</p>
+      <h4>Can I change my mobile number later?</h4>
+      <p>Many platforms allow users to update their contact details through account settings or customer support.</p>
+      <h4>What happens if I forget my password?</h4>
+      <p>Use the password recovery option and follow the verification steps to reset it.</p>
+      <h4>Why do platforms verify accounts?</h4>
+      <p>Verification helps improve security and protect user accounts from unauthorized access.</p>
+      <h4>Is fantasy sports based only on luck?</h4>
+      <p>Different fantasy sports platforms have different rules and contest formats. Many users rely on research, player statistics, and strategic team selection when participating.</p>
+      
+      <h3>Responsible Participation</h3>
+      <p>Fantasy sports should always be enjoyed responsibly. Before participating:</p>
+      <ul>
+        <li>Read the platform's rules carefully.</li>
+        <li>Understand the scoring system.</li>
+        <li>Make informed decisions.</li>
+        <li>Protect your account information.</li>
+        <li>Follow the laws and regulations that apply in your location.</li>
+      </ul>
+      
+      <h3>Final Thoughts</h3>
+      <p>Fantasy sports offer an engaging way for sports fans to follow matches while applying their knowledge and strategy. Understanding how registration, login, password recovery, and account security work with https://mahadevbookie.site can make your experience smoother and more secure.</p>
+      <p>Whether you're creating your first account or returning after some time away, always use official platforms, protect your personal information, and take time to understand the rules before participating. A well-informed approach helps you enjoy the experience while keeping your account secure.</p>
     `
   }
 ];

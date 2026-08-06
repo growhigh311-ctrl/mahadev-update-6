@@ -2,6 +2,11 @@ import { blogPosts } from "../../../lib/blogData";
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { Calendar, Clock, ChevronLeft } from "lucide-react";
+import type { Metadata } from "next";
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -9,8 +14,18 @@ export async function generateStaticParams() {
   }));
 }
 
-interface PageProps {
-  params: Promise<{ slug: string }>;
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
+
+  if (!post) {
+    return { title: 'Post Not Found' };
+  }
+
+  return {
+    title: post.metaTitle || post.title,
+    description: post.metaDescription || post.excerpt,
+  };
 }
 
 export default async function BlogPostPage({ params }: PageProps) {
@@ -27,7 +42,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-black py-16">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-6 sm:px-10 md:px-12 lg:px-16">
         
         {/* Back Link */}
         <div className="mb-8">

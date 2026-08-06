@@ -48,10 +48,12 @@ export default function RootLayout({
   const schemaPath = path.join(process.cwd(), 'schema codes', 'homepage.txt');
   let homepageSchema = '';
   try {
-    homepageSchema = fs.readFileSync(schemaPath, 'utf8')
-      .replace(/<script[^>]*>/i, '')
-      .replace(/<\/script>/i, '')
-      .trim();
+    if (fs.existsSync(schemaPath)) {
+      homepageSchema = fs.readFileSync(schemaPath, 'utf8')
+        .replace(/<script[^>]*>/i, '')
+        .replace(/<\/script>/i, '')
+        .trim();
+    }
   } catch (err) {
     console.error('Error reading homepage schema:', err);
   }
@@ -63,12 +65,12 @@ export default function RootLayout({
       style={{ colorScheme: 'dark' }}
     >
       <head>
-        {homepageSchema && (
+        {homepageSchema ? (
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: homepageSchema }}
           />
-        )}
+        ) : null}
       </head>
       <body className="min-h-full flex flex-col bg-[#050505] text-zinc-100 font-sans selection:bg-amber-500/20 selection:text-amber-300">
         <Navbar />
