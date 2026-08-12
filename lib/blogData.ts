@@ -305,5 +305,17 @@ export const blogPosts: BlogPost[] = [
       <p>Fantasy sports offer an engaging way for sports fans to follow matches while applying their knowledge and strategy. Understanding how registration, login, password recovery, and account security work with https://mahadevbookie.site can make your experience smoother and more secure.</p>
       <p>Whether you're creating your first account or returning after some time away, always use official platforms, protect your personal information, and take time to understand the rules before participating. A well-informed approach helps you enjoy the experience while keeping your account secure.</p>
     `
+  },
+  {
+    slug: "india-vs-sri-lanka-test-series-2026",
+    title: "India vs Sri Lanka Test Series 2026: Five-Day Cricket Returns to the Spotlight",
+    excerpt: "India's attention turns toward Test cricket as they begin a two-match series against Sri Lanka starting August 15 in Galle, testing their players in challenging subcontinental conditions.",
+    date: "August 12, 2026",
+    category: "Cricket",
+    icon: "🏏",
+    readTime: "6 min read",
+    customUrl: "/india-vs-sri-lanka-test-series-2026/",
+    buttonText: "Show More",
+    content: ""
   }
 ];
