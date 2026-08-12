@@ -5,6 +5,7 @@ import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 import fs from 'fs';
 import path from 'path';
+import Script from "next/script";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -73,6 +74,19 @@ export default function RootLayout({
         ) : null}
       </head>
       <body className="min-h-full flex flex-col bg-[#050505] text-zinc-100 font-sans selection:bg-amber-500/20 selection:text-amber-300">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MVJTN6DXDV"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-MVJTN6DXDV');
+          `}
+        </Script>
         <Navbar />
         <main className="flex-grow pt-20">
           {children}
