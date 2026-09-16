@@ -3,8 +3,8 @@ import fs from 'fs';
 import path from 'path';
 
 export const metadata: Metadata = {
-  title: 'Mahadev Bookie FAQs | Betting ID, Registration & Support',
-  description: 'Find answers to frequently asked questions about Mahadev Bookie accounts, betting IDs, deposits, withdrawals, sports betting, and support.',
+  title: 'Mahadev Bookie FAQs | ID, Registration & Support',
+  description: 'Find answers to frequently asked questions about Mahadev Bookie accounts, IDs, deposits, withdrawals, sports , and support.',
   alternates: {
     canonical: '/faq',
   }

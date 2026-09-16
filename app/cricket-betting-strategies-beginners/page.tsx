@@ -4,10 +4,10 @@ import { Calendar, Clock, ChevronLeft } from 'lucide-react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cricket Betting Strategies for Beginners | Winning Tips",
-  description: "Learn beginner-friendly cricket betting strategies, understand betting markets, manage your bankroll, and make smarter betting decisions.",
+  title: "Cricket Strategies for Beginners | Winning Tips",
+  description: "Learn beginner-friendly cricket strategies, understand markets, manage your bankroll, and make smarter decisions.",
   alternates: {
-    canonical: '/cricket-betting-strategies-beginners/',
+    canonical: '/cricket--strategies-beginners/',
   },
 };
 
@@ -56,15 +56,15 @@ export default function BeginnerStrategyPage() {
         {/* Content body */}
         <article className="prose prose-invert max-w-none prose-amber prose-headings:font-serif prose-headings:font-bold prose-headings:text-white prose-p:text-zinc-350 prose-p:leading-relaxed prose-p:font-light prose-p:mb-6 prose-a:text-amber-400 hover:prose-a:text-amber-300 prose-ul:list-disc prose-ul:pl-6 prose-ul:mb-6 prose-li:text-zinc-350 prose-li:font-light prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4">
           <p>
-            The secret to long-term success in 2026 isn't a "hot streak" or a lucky guess; it’s bankroll management. Most beginners fail because they treat betting like a gamble rather than an investment. Learn how to protect your capital while building your confidence with a disciplined approach.
+            The secret to long-term success in 2026 isn't a "hot streak" or a lucky guess; it’s bankroll management. Most beginners fail because they treat like a gamble rather than an investment. Learn how to protect your capital while building your confidence with a disciplined approach.
           </p>
           
           <h3>The 1-5% Rule</h3>
           <p>
-            The most important rule in professional betting is never to overextend.
+            The most important rule in professional is never to overextend.
           </p>
           <ul>
-            <li><strong>Bankroll Management:</strong> Divide your total betting budget into 100 units. Never bet more than 1–5% of your total bankroll on any single match.</li>
+            <li><strong>Bankroll Management:</strong> Divide your total budget into 100 units. Never bet more than 1–5% of your total bankroll on any single match.</li>
             <li><strong>Survival:</strong> This approach ensures that even a string of bad luck won’t wipe out your entire account, giving you the time and runway to learn from your mistakes.</li>
           </ul>
 
@@ -79,16 +79,16 @@ export default function BeginnerStrategyPage() {
 
           <h3>Avoiding Emotional Bets</h3>
           <p>
-            "Betting with your heart" is the quickest way to experience "logical bankruptcy."
+            "with your heart" is the quickest way to experience "logical bankruptcy."
           </p>
           <ul>
-            <li><strong>The Favorite Team Bias:</strong> We all want our favorite team to win, but that bias clouds your objective analysis. If you cannot look at your favorite team’s stats impartially, it is better to avoid betting on their matches entirely.</li>
+            <li><strong>The Favorite Team Bias:</strong> We all want our favorite team to win, but that bias clouds your objective analysis. If you cannot look at your favorite team’s stats impartially, it is better to avoid on their matches entirely.</li>
           </ul>
 
           <h3>FAQs</h3>
           <h4>What is a bankroll?</h4>
           <p>
-            A bankroll is the total amount of money you have set aside specifically for betting. It should be money you can afford to lose without it affecting your daily life.
+            A bankroll is the total amount of money you have set aside specifically for . It should be money you can afford to lose without it affecting your daily life.
           </p>
           <h4>How do I handle a losing streak?</h4>
           <p>

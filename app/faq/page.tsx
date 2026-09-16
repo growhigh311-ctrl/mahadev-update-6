@@ -6,19 +6,19 @@ import { HelpCircle, Plus, Minus } from 'lucide-react';
 
 const fullFaqs = [
   {
-    q: "What is Mahadev Book Online Betting ID?",
-    a: "The Mahadev Book Online Betting ID is a verified account that lets you access betting services such as cricket, casino, poker, and more. With this ID, users can deposit funds, place bets, and enjoy a secure gaming experience."
+    q: "What is Mahadev Book Online ID?",
+    a: "The Mahadev Book Online ID is a verified account that lets you access services such as cricket, casino, poker, and more. With this ID, users can deposit funds, place bets, and enjoy a secure gaming experience."
   },
   {
     q: "How does Mahadev Book work?",
-    a: "Mahadev Book is an online gateway. After contacting an agent via WhatsApp, we create a secure account for you on the official betting exchange. You deposit funds via convenient channels (UPI, IMPS, GPay, Paytm) and chips are added to your ID. You place your bets, and upon win, request payouts that land directly in your bank account."
+    a: "Mahadev Book is an online gateway. After contacting an agent via WhatsApp, we create a secure account for you on the official exchange. You deposit funds via convenient channels (UPI, IMPS, GPay, Paytm) and chips are added to your ID. You place your bets, and upon win, request payouts that land directly in your bank account."
   },
   {
     q: "How do I join Mahadev Book?",
     a: "You join by clicking on our WhatsApp contact link. Our team is available 24/7. Simply send a message requesting a new ID registration. They will guide you through creating your credentials."
   },
   {
-    q: "How do I register for a new Online Betting ID?",
+    q: "How do I register for a new Online ID?",
     a: "Registering requires just a WhatsApp message. No long sign-up forms are needed. Send your name, choose a username prefix, and make your first secure deposit. Your official login link and credentials will be sent to you in minutes."
   },
   {
@@ -31,7 +31,7 @@ const fullFaqs = [
   },
   {
     q: "How do I deposit money into my Mahadev Book account?",
-    a: "Text your support manager on WhatsApp. They will provide the active UPI details or bank transfer numbers. Make the payment, share the transaction receipt/screenshot, and your betting chips will be updated on your screen within minutes."
+    a: "Text your support manager on WhatsApp. They will provide the active UPI details or bank transfer numbers. Make the payment, share the transaction receipt/screenshot, and your chips will be updated on your screen within minutes."
   },
   {
     q: "How do I withdraw my winnings?",
@@ -39,7 +39,7 @@ const fullFaqs = [
   },
   {
     q: "Is Mahadev Book legal in India?",
-    a: "Online sports insights are constitutionally protected as games of skill in India. Real-money betting itself is regulated by individual states. Some states explicitly ban it, while others allow it. Verify your local state guidelines before playing."
+    a: "Online sports insights are constitutionally protected as games of skill in India. Real-money itself is regulated by individual states. Some states explicitly ban it, while others allow it. Verify your local state guidelines before playing."
   },
   {
     q: "Is Mahadev Book safe and trusted?",

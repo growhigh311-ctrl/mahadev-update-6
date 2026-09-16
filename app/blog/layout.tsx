@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Mahadev Bookie Blog | Betting Tips, Cricket News & Guides',
-  description: 'Read expert betting tips, IPL predictions, cricket news, casino strategies, and online betting guides to improve your betting.',
+  title: 'Mahadev Bookie Blog | Tips, Cricket News & Guides',
+  description: 'Read expert tips, IPL predictions, cricket news, casino strategies, and online guides to improve your .',
   alternates: {
     canonical: '/blog',
   }

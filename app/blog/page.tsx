@@ -18,7 +18,7 @@ export default function BlogListingPage() {
               Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Insights</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
-              Stay ahead with our latest betting guides, legal compliance updates, and match analytics.
+              Stay ahead with our latest guides, legal compliance updates, and match analytics.
             </p>
             <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
           </div>

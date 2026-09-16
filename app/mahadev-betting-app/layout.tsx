@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Mahadev Betting App | Download & Bet Anytime',
-  description: 'Download the Mahadev Betting App to enjoy live cricket betting, casino games, real-time sports betting, secure transactions, and a premium betting experience.',
+  title: 'Mahadev App | Download & Bet Anytime',
+  description: 'Download the Mahadev App to enjoy live cricket , casino games, real-time sports , secure transactions, and a premium experience.',
   alternates: {
-    canonical: '/mahadev-betting-app',
+    canonical: '/mahadev--app',
   }
 };
 
-export default function BettingAppLayout({ children }: { children: React.ReactNode }) {
+export default function AppLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

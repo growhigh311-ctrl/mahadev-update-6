@@ -30,7 +30,7 @@ export default function BookIdPage() {
               Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Book ID</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
-              Your personal, encrypted digital passport to secure sports insights, betting odds, and fast payouts.
+              Your personal, encrypted digital passport to secure sports insights, odds, and fast payouts.
             </p>
             <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
           </div>
@@ -41,13 +41,13 @@ export default function BookIdPage() {
           <Reveal xOffset={-45}>
             <div className="space-y-6">
               <h2 className="text-2xl font-serif font-bold text-white leading-snug">
-                Unlock Safe Online Gaming with Your Verified Betting ID
+                Unlock Safe Online Gaming with Your Verified ID
               </h2>
               <p className="text-zinc-350 leading-relaxed font-light">
-                Your <strong>Mahadev Book ID</strong> is a personal access key to India's trusted online betting ecosystem. With it, you can securely place bets on sports, casino games, and virtual matches within a single platform.
+                Your <strong>Mahadev Book ID</strong> is a personal access key to India's trusted online ecosystem. With it, you can securely place bets on sports, casino games, and virtual matches within a single platform.
               </p>
               <p className="text-zinc-400 leading-relaxed font-light">
-                Think of it as your secure digital passport, offering seamless and protected transactions in a feature-rich betting environment. Get started today with a verified agent.
+                Think of it as your secure digital passport, offering seamless and protected transactions in a feature-rich environment. Get started today with a verified agent.
               </p>
               <div className="pt-2">
                 <a 
@@ -128,7 +128,7 @@ export default function BookIdPage() {
             <div className="space-y-2 text-center md:text-left">
               <h4 className="text-white font-bold text-lg">Important Safety Guidelines</h4>
               <p className="text-zinc-400 text-sm font-light leading-relaxed">
-                Always set daily or weekly deposit limits. Betting should be fun and recreational. Never chase losses, and if you require support or self-exclusion, contact our relationship managers immediately. Access is restricted to users aged 18 and older.
+                Always set daily or weekly deposit limits. should be fun and recreational. Never chase losses, and if you require support or self-exclusion, contact our relationship managers immediately. Access is restricted to users aged 18 and older.
               </p>
             </div>
           </div>

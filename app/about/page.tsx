@@ -25,7 +25,7 @@ export default function AboutPage() {
               About <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Mahadev Book</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
-              India's most trusted online betting exchange insight and prediction gateway.
+              India's most trusted online exchange insight and prediction gateway.
             </p>
             <div className="w-16 h-0.5 bg-amber-500 mx-auto rounded-full mt-4"></div>
           </div>
@@ -37,7 +37,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-2xl font-serif font-bold text-white">Our Story</h2>
               <p className="text-zinc-300 leading-relaxed font-light">
-                Mahadev Book was founded with a clear mission: to create India's most secure, transparent, and rewarding online betting experience. Since 2018, we have grown to serve over 1.2 million verified users across India.
+                Mahadev Book was founded with a clear mission: to create India's most secure, transparent, and rewarding online experience. Since 2018, we have grown to serve over 1.2 million verified users across India.
               </p>
               <p className="text-zinc-400 leading-relaxed font-light">
                 We believe that sports predictions and analytical games should be fun, accessible, and run with absolute fairness. That's why we partner only with the most credible sportsbook engines and ensure every transaction is protected.
